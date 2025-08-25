@@ -1,0 +1,106 @@
+🔐 Password Strength Checker
+This script evaluates the strength of a user-provided password based on common best practices for secure passwords. It uses regular expressions to check for specific character requirements and provides both a strength rating and feedback on how to improve the password.
+
+📋 Features
+Checks password against five key criteria:
+
+Minimum length (at least 8 characters)
+
+At least one uppercase letter
+
+At least one lowercase letter
+
+At least one digit
+
+At least one special character (e.g., !@#$%^&*(), etc.)
+
+Provides a score (0–5) and corresponding strength level:
+
+🔴 Weak (0–2)
+
+🟠 Medium (3)
+
+🟡 Strong (4)
+
+🟢 Very Strong (5)
+
+1. How to Use Regular Expressions (Regex)
+You practiced using the re module to:
+
+Detect uppercase letters: r"[A-Z]"
+
+Detect lowercase letters: r"[a-z]"
+
+Detect digits: r"[0-9]"
+
+Detect special characters: r"[!@#$%^&*(),.?\":{}|<>]"
+
+🔍 Regex is a powerful tool for pattern matching and text validation.
+
+2. How to Implement Password Validation Criteria
+You learned how to:
+
+Check if a password meets basic security standards.
+
+Structure logic to assess each security rule separately.
+
+Use conditions (if-else) to build a scoring system and give targeted feedback.
+
+3. Scoring and Feedback System
+You created a system that:
+
+Scores a password from 0 to 5.
+
+Labels it as 🔴 Weak, 🟠 Medium, 🟡 Strong, or 🟢 Very Strong.
+
+Provides specific, user-friendly feedback on what’s missing.
+
+🎯 This is a practical way to guide users toward creating stronger passwords.
+
+4. Handling User Input
+You learned how to:
+
+Use input() to get user input from the terminal.
+
+Run a script conditionally with if __name__ == "__main__": to separate logic from execution.
+
+5. Best Practices for Secure Passwords
+By implementing these checks, you’ve indirectly learned what makes a strong password:
+
+Long enough (at least 8 characters)
+
+A mix of uppercase, lowercase, numbers, and symbols
+
+🔐 These are commonly recommended by security experts and used in real-world applications.
+
+🧰 Optional: Extra Skills You Could Explore Next
+Turn this into a GUI using Tkinter or a web app using Flask.
+
+Store password evaluation logs in a file or database.
+
+Learn about hashing (e.g., using hashlib) for password storage.
+
+Add checks for common/compromised passwords using an API like "Have I Been Pwned".
+
+🧑‍💻 Programming Skills
+✅ Python Basics
+Variables & Data Types: Storing the score, feedback (list), and user input.
+
+Control Flow: Using if, else, and elif for conditional checks.
+
+Functions: Defining and calling the check_password_strength() function.
+
+✅ String Handling
+Calculating string length with len().
+
+Using string input with input() and passing it to functions.
+
+🔍 Text Processing Skills
+✅ Regular Expressions (Regex)
+Using the re module to detect specific character types:
+
+[A-Z] – Uppercase letters
+
+[a-z] – Lowercase letters
+
+
